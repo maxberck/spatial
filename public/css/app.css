@@ -1,4 +1,11 @@
 @charset "UTF-8";
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 header {
   height: 35em;
   color: white;
@@ -32,6 +39,46 @@ header .filter div h4, header .filter div .h4 {
   color: #ADADAC;
   font-weight: 100;
   line-height: 0.05em;
+}
+
+.s1 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 5em;
+  gap: 5em;
+}
+.s1 .s1_title {
+  width: 50%;
+  gap: 2em;
+}
+.s1 .s1_title h1, .s1 .s1_title .h1 {
+  color: #484848;
+}
+.s1 .s1_title h4, .s1 .s1_title .h4 {
+  color: #A8A5A6;
+  font-weight: 100;
+}
+.s1 .s1_title p {
+  font-weight: 100;
+  color: #7D7E8C;
+  font-size: 0.8em;
+}
+
+.s2 {
+  background-color: #F6F6F6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.s2 div h1, .s2 div .h1 {
+  color: #484848;
+}
+.s2 div h4, .s2 div .h4 {
+  color: #A8A5A6;
+  font-weight: 100;
 }
 
 /*!
