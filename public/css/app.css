@@ -1,11 +1,4 @@
 @charset "UTF-8";
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 header {
   height: 35em;
   color: white;
@@ -14,7 +7,7 @@ header {
   background-size: 100%;
 }
 header .filter {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(42, 42, 46, 0.698);
   height: 35em;
 }
 header .filter nav {
@@ -44,12 +37,11 @@ header .filter div h4, header .filter div .h4 {
 .s1 {
   display: flex;
   justify-content: center;
-  width: 50%;
   padding-top: 5em;
   gap: 5em;
 }
 .s1 .s1_title {
-  width: 50%;
+  width: 25%;
   gap: 2em;
 }
 .s1 .s1_title h1, .s1 .s1_title .h1 {
@@ -88,7 +80,7 @@ header .filter div h4, header .filter div .h4 {
 .s2 .s2_card {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 1.5em;
   padding-top: 5em;
   padding-bottom: 3em;
 }
@@ -107,17 +99,23 @@ header .filter div h4, header .filter div .h4 {
   width: 15em;
   height: 3em;
   gap: 10em;
+  margin: 0.5em;
 }
 
 .s3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
   padding-top: 5em;
 }
 .s3 .s3_title {
+  display: flex;
   text-align: left;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 73%;
+  padding-bottom: 5em;
 }
 .s3 .s3_title h1, .s3 .s3_title .h1 {
   color: #484848;
@@ -175,10 +173,10 @@ header .filter div h4, header .filter div .h4 {
   color: white;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
-  background-position-y: 34%;
+  background-position-y: 50%;
 }
 .s5 .filter {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(42, 42, 46, 0.698);
   height: 17em;
   width: 100%;
   display: flex;
@@ -189,7 +187,33 @@ header .filter div h4, header .filter div .h4 {
 .s5 .filter h4, .s5 .filter .h4 {
   font-weight: 100;
   color: #A8A5A6;
+  padding-bottom: 1em;
+}
+
+footer {
+  padding-top: 5em;
   padding-bottom: 2em;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-bottom: 3em;
+}
+footer div p {
+  color: #aaaaaa;
+}
+footer div .footer_border {
+  border-left: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+footer .footer_image {
+  gap: 3em;
+}
+footer .footer_image img {
+  height: 3em;
 }
 
 /*!
