@@ -72,6 +72,11 @@ header .filter div h4, header .filter div .h4 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.s2 div {
+  text-align: center;
 }
 .s2 div h1, .s2 div .h1 {
   color: #484848;
@@ -79,6 +84,112 @@ header .filter div h4, header .filter div .h4 {
 .s2 div h4, .s2 div .h4 {
   color: #A8A5A6;
   font-weight: 100;
+}
+.s2 .s2_card {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.s2 .s2_card .card {
+  border-radius: 0px;
+}
+.s2 .s2_card .card .card-body {
+  height: 4em;
+}
+.s2 .s2_card .card p {
+  text-align: center;
+  padding-top: 0.4em;
+  font-weight: 600;
+}
+.s2 div button {
+  width: 15em;
+  height: 3em;
+  gap: 10em;
+}
+
+.s3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding-top: 5em;
+}
+.s3 .s3_title {
+  text-align: left;
+}
+.s3 .s3_title h1, .s3 .s3_title .h1 {
+  color: #484848;
+}
+.s3 .s3_title h4, .s3 .s3_title .h4 {
+  color: #A8A5A6;
+  font-weight: 100;
+}
+.s3 .bubble {
+  display: flex;
+  width: 80%;
+  gap: 5em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 5em;
+}
+.s3 .bubble div {
+  display: flex;
+}
+.s3 .bubble div .left {
+  text-align: left;
+  padding-left: 1em;
+}
+.s3 .bubble div .right {
+  text-align: right;
+  padding-right: 1em;
+}
+.s3 .bubble div .s3_txt {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+}
+.s3 .bubble div .s3_txt h1, .s3 .bubble div .s3_txt .h1 {
+  font-size: 1em;
+}
+.s3 .bubble div .s3_txt h4, .s3 .bubble div .s3_txt .h4 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+.s3 .bubble div .s3_txt p {
+  font-size: 0.8em;
+  color: #878B8F;
+}
+.s3 .bubble div img {
+  border-radius: 100%;
+  border: solid #E3E3E3 10px;
+  height: 10em;
+  width: 10em;
+}
+
+.s5 {
+  height: 17em;
+  width: 100%;
+  color: white;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 34%;
+}
+.s5 .filter {
+  background: rgba(0, 0, 0, 0.5);
+  height: 17em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s5 .filter h4, .s5 .filter .h4 {
+  font-weight: 100;
+  color: #A8A5A6;
+  padding-bottom: 2em;
 }
 
 /*!
