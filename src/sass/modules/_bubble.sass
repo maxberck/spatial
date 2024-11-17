@@ -35,7 +35,8 @@
             .s3_txt
                 display: flex
                 flex-direction: column
-                width: 23vw
+                padding-top: 1em
+                width: 23em
                 h1
                     font-size: 1em
                 h4
@@ -50,4 +51,22 @@
                 height: 10em
                 width: 10em
 
-    
+@media ( max-width: 768px )
+    .s3
+        .bubble
+            flex-direction: column
+            div
+                .s3_txt
+                    width: 30em
+
+@media ( max-width: 425px )
+    .s3
+        .bubble
+            div
+                .s3_txt
+                    width: 70%
+                img
+                    border-radius: 1%
+                    width: 10em
+                    height: auto
+                    object-fit: cover

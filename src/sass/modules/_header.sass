@@ -28,8 +28,26 @@ header
                 color: #ADADAC
                 font-weight: 100
                 line-height: .05em
+  
+@media ( max-width: 425px )
+    header
+        height: 25em
+        .filter
+            height: 25em
+            nav
+                flex-direction: column
+                align-items: center
+                ul
+                    padding-right: 2em
+            div
+                padding-top: 0em
+                h4
+                    font-size: 1em
 
-
-    
-
-
+@media ( max-width: 375px )
+    header
+        .filter
+            height: 22em
+            div
+                h4
+                    font-size: .9em 

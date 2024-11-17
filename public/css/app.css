@@ -34,6 +34,35 @@ header .filter div h4, header .filter div .h4 {
   line-height: 0.05em;
 }
 
+@media (max-width: 425px) {
+  header {
+    height: 25em;
+  }
+  header .filter {
+    height: 25em;
+  }
+  header .filter nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .filter nav ul {
+    padding-right: 2em;
+  }
+  header .filter div {
+    padding-top: 0em;
+  }
+  header .filter div h4, header .filter div .h4 {
+    font-size: 1em;
+  }
+}
+@media (max-width: 375px) {
+  header .filter {
+    height: 22em;
+  }
+  header .filter div h4, header .filter div .h4 {
+    font-size: 0.9em;
+  }
+}
 .s1 {
   display: flex;
   justify-content: center;
@@ -57,6 +86,20 @@ header .filter div h4, header .filter div .h4 {
   font-size: 0.8em;
 }
 
+@media (max-width: 768px) {
+  .s1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .s1 .s1_title {
+    width: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .s1 .s1_title {
+    width: 80%;
+  }
+}
 .s2 {
   background-color: #F6F6F6;
   width: 100%;
@@ -102,6 +145,21 @@ header .filter div h4, header .filter div .h4 {
   margin: 0.5em;
 }
 
+@media (max-width: 768px) {
+  .s2 .s2_card {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 425px) {
+  .s2 .s2_card {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.6em;
+  }
+  .s2 .s2_card .card-body {
+    padding-bottom: 4em;
+  }
+}
 .s3 {
   display: flex;
   flex-direction: column;
@@ -147,7 +205,8 @@ header .filter div h4, header .filter div .h4 {
 .s3 .bubble div .s3_txt {
   display: flex;
   flex-direction: column;
-  width: 23vw;
+  padding-top: 1em;
+  width: 23em;
 }
 .s3 .bubble div .s3_txt h1, .s3 .bubble div .s3_txt .h1 {
   font-size: 1em;
@@ -167,6 +226,25 @@ header .filter div h4, header .filter div .h4 {
   width: 10em;
 }
 
+@media (max-width: 768px) {
+  .s3 .bubble {
+    flex-direction: column;
+  }
+  .s3 .bubble div .s3_txt {
+    width: 30em;
+  }
+}
+@media (max-width: 425px) {
+  .s3 .bubble div .s3_txt {
+    width: 70%;
+  }
+  .s3 .bubble div img {
+    border-radius: 1%;
+    width: 10em;
+    height: auto;
+    object-fit: cover;
+  }
+}
 .s5 {
   height: 17em;
   width: 100%;
@@ -190,6 +268,14 @@ header .filter div h4, header .filter div .h4 {
   padding-bottom: 1em;
 }
 
+@media (max-width: 375px) {
+  .s5 .filter h1, .s5 .filter .h1 {
+    text-align: center;
+  }
+  .s5 .filter h4, .s5 .filter .h4 {
+    font-size: 0.7;
+  }
+}
 footer {
   padding-top: 5em;
   padding-bottom: 2em;
@@ -216,6 +302,18 @@ footer .footer_image img {
   height: 3em;
 }
 
+@media (max-width: 425px) {
+  footer div {
+    gap: 0.5em;
+  }
+  footer div p {
+    font-size: 0.7em;
+  }
+  footer div .footer_border {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
